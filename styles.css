@@ -1,0 +1,157 @@
+:root {
+    --primary-color: #2f6aff;
+    --secondary-color: #7D99FC;
+    --accent-color: #FFA500;
+    --background-color: #D3D3D3;
+  }
+  
+  body {
+    background-color: var(--background-color);
+  }
+  
+  #palindrome-detector {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 26px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+  }
+  
+  #header {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 30;
+  }
+  
+  #imgSrc {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  
+  #formParent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(211, 211, 211, 0.3);
+    border-radius: 12px;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  
+  #formText {
+    text-align: center;
+    margin-bottom: 20px;  
+}
+  
+  #formText #program-title {
+    font-family: lato;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(60, 64, 67, 0.9);
+    margin-bottom: -20px;
+  }
+  
+  #form-title {
+    font-family: cambria;
+    font-size: 22px;
+    color: rgba(60, 64, 67, 0.9);
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  #check-btn { 
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 12px 20px;
+    cursor: pointer;
+    width: 100%;
+    border-color: rgba(60, 64, 67, 0.3);
+    box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+
+  #check-btn:hover {
+    color: var(--primary-color);
+    background-color: rgba(211, 234, 255, 0.927);
+    width: 100%;
+    border-color: rgba(0, 145, 255, 0.3);
+    box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  
+  #check-btn:active {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    width: 100%;
+    border-color: rgba(60, 64, 67, 0.3);
+    box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+
+  #result {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: rgba(60, 64, 67, 0.1);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    color: rgba(60, 64, 67, 0.9);
+    width: 50%;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+
+  #definition {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-sizing: border-box;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  
+  #definition p {
+    font-weight: semibold;
+    font-size: 18px;
+    font-family: lato;
+  }
+  
+
+
+  
+  
+  
+  
