@@ -35,7 +35,11 @@
   }
 
   #program-title {
-    font-size: 28px;
+    font-size: 2rem;
+  }
+
+  #form-title {
+    font-size: 1.5rem;
   }
   
   #imgSrc {
@@ -66,14 +70,12 @@
   #formText #program-title {
     font-family: lato;
     font-weight: bold;
-    font-size: 40px;
     color: rgba(60, 64, 67, 0.9);
     margin-bottom: -20px;
   }
   
   #form-title {
     font-family: cambria;
-    font-size: 22px;
     color: rgba(60, 64, 67, 0.9);
     padding-left: 5px;
     padding-right: 5px;
@@ -152,6 +154,24 @@
     font-weight: semibold;
     font-size: 18px;
     font-family: lato;
+  }
+
+  @media (max-width: 600px) {
+    #program-title {
+        font-size: 1.8rem; 
+    }
+
+    #form-title {
+        font-size: 1.2rem; 
+    }
+
+    #result {
+        font-size: 1.4rem; 
+    }
+
+    #definition p {
+        font-size: 1rem;
+    }
   }
   
 
